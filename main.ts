@@ -5,12 +5,6 @@ export default class ObsidianPasteAsHtmlPlugin extends Plugin {
 		this.addCommand({
 			id: 'paste-as-html',
 			name: 'paste as html',
-			hotkeys: [
-				{
-					modifiers: ['Alt', 'Shift'],
-					key: 'v',
-				},
-			],
 			editorCallback: async (editor: Editor, view: MarkdownView) => {
 				const items = await navigator.clipboard.read()
 				const textBlob = await items[0].getType('text/html')

@@ -2,7 +2,7 @@
 
 1. install this plugin
 2. copy html at browser
-3. paste by `alt + shift + v` or , `ctrl + p` -> command `paste as html`
+3. paste by : ctrl + p` -> command `paste as html`
 4. the web text well paste as html, and Keep the original css style
 
 
