@@ -11,7 +11,7 @@
 2. main.js复制到对应文件夹下测试
 3. 修改version.js, package.json, manifest.json版本号, 修改readme.md
 4. 上传代码
-5. 复制
+5. `git tag 1.0.0` -> `git push origin 1.0.0`
 
 
 
